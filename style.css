@@ -1,0 +1,51 @@
+
+.uno > li{
+    display: block;
+    float: left;
+    list-style: none;
+    height: 20px;
+    overflow: hidden;
+    background: #333;
+    transition: 1.5s;
+}
+.uno > li:hover{
+    height: 80px;   
+}
+.dos > li{
+    list-style: none;
+    margin-left: -30px;
+}
+.dos a{
+    color: #fff;
+    text-decoration: none;
+}
+.dos a:hover{
+    color: #ff0000;
+}
+.uno > li > a{
+    width: 250px;
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: #333;
+}
+.sex > li{
+    display: block;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+    width: 420px;
+    text-align: left;
+}
+.sexi{
+    display: block;
+    margin-left: -40px;
+}
+.tur li a{
+    color: #bdbdbd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
