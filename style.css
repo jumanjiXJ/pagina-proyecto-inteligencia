@@ -47,5 +47,31 @@
     color: #bdbdbd;
     font-family: Arial, Helvetica, sans-serif;
 }
+       @media screen and (max-width:1200px) {
+           img{
+               width: 100%;
+           }
+       }
+       @media screen and (max-width:1200px) {
+           video{
+               width: 100%;
+           }
+       }
+   
+@media screen and (max-width:1200px){
+    .texto{
+       font-size: 5vw;
+   }
+   .titulo {
+       font-size: 10vw;
+   }
+   .titulos {
+       font-size: 7vw ;
+   }
+   .creditos{
+       font-size: 6vw;
+   }
+}
+
 
 
